@@ -1,26 +1,21 @@
 {
-  "name": "server",
+  "name": "guitar-tabs",
   "version": "1.0.0",
+  "description": "guitar tabs website",
   "main": "index.js",
   "scripts": {
-    "start": "npx nodemon --exec \"node src/app.js\"",
-    "lint": "npx eslint --exec"
+    "dev" : "nodemon server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "author": "Arabella Jordan",
+  "license": "MIT",
   "dependencies": {
     "body-parser": "^1.20.3",
     "cors": "^2.8.5",
     "express": "^4.21.2",
-    "morgan": "^1.10.0",
-    "nodemon": "^3.1.9"
+    "mongodb": "^6.13.0"
   },
   "devDependencies": {
-    "@eslint/js": "^9.19.0",
-    "eslint": "^9.19.0",
-    "eslint-plugin-vue": "^9.32.0",
-    "globals": "^15.14.0"
+    "nodemon": "^3.1.9"
   }
 }
